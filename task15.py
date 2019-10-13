@@ -1,0 +1,5 @@
+text = input("Enter some text: ")
+tokenized = text.split(' ')
+print("Original text:", text)
+print("Words in reverse order:", ' '.join(tokenized[::-1]))
+print("Letters in reverse order:", ' '.join(list(map(lambda x : x[::-1], tokenized))))
